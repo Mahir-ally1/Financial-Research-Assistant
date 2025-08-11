@@ -1,7 +1,7 @@
 # Financial Research Assistant
 
 A lightweight research assistant that analyzes public markets using tool-augmented LLM calls. It fetches market data, computes RSI, summarizes earnings-call transcripts via Amazon Bedrock, and aggregates news, insider activity, institutional ownership, and EPS YoY growth — all in a simple Streamlit chat UI.
-⚠️ Investment disclaimer: This project is for research/education. It does not provide financial advice or recommendations.
+
 
 ## Features
 - Chat UI (Streamlit) — Ask a question or a ticker-based query; responses are evidence-based.
