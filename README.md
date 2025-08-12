@@ -15,7 +15,7 @@ A lightweight research assistant that analyzes public markets using tool-augment
 ### Quickstart
 
 ```bash
-git clone <repo>
+git clone https://github.com/Mahir-ally1/Financial-Research-Assistant.git
 cd financial-research-assistant
 python -m venv .venv
 source .venv/bin/activate
