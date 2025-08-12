@@ -11,3 +11,15 @@ A lightweight research assistant that analyzes public markets using tool-augment
 - Institutional Ownership — Top-5 holders, % held, and net bias (accumulating vs trimming).
 - EPS YoY Growth — Quarter-over-quarter YoY growth stats from the income statement.
 - Earnings Call Summaries (Bedrock) — Fetches Alpha Vantage transcripts and summarizes with Amazon Bedrock (Converse API, Anthropic Claude 3.5 Haiku).
+
+### Quickstart
+
+```bash
+git clone <repo>
+cd financial-research-assistant
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+# fill in keys/region/profile in .env
+streamlit run app.py
