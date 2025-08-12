@@ -3,6 +3,12 @@
 A lightweight research assistant that analyzes public markets using tool-augmented LLM calls. It fetches market data, computes RSI, summarizes earnings-call transcripts via Amazon Bedrock, and aggregates news, insider activity, institutional ownership, and EPS YoY growth — all in a simple Streamlit chat UI.
 
 
+
+https://github.com/user-attachments/assets/35c1f2f2-a1b6-4836-bb02-ea2a72c55c2a
+
+
+
+
 ## Features
 - Chat UI (Streamlit) — Ask a question or a ticker-based query; responses are evidence-based.
 - RSI Summary — Computes RSI from historical prices (yfinance) and returns min/max/avg + signal.
